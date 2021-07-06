@@ -1,3 +1,29 @@
-* {
-  color: black;
+/* Custom Variables */
+
+:root {
+  --clr-text: #130f08;
+  --clr-primary: #78624a;
+  --clr-accent: #d8c2aa;
+
+  --ff-title: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  --ff-verdana: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  --ff-logo: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: var(--ff-verdana);
+  color: var(--clr-text);
+  font-size: 1.125 rem;
+}
+
+/* Typography */
+
+h2,
+h3 {
+  font-family: var(--ff-title);
+  line-height: 0.8;
 }
