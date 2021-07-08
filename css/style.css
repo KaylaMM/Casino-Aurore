@@ -20,10 +20,108 @@ html {
   font-size: 1.125 rem;
 }
 
+body {
+  margin: 0;
+  text-align: center;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+section {
+  padding: 3em 1em;
+}
+
 /* Typography */
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
 
 h2,
 h3 {
   font-family: var(--ff-title);
   line-height: 0.8;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+p {
+  margin-bottom: 0.85em;
+}
+
+.section-title-small {
+  font-size: 3rem;
+}
+
+.section-title-small small {
+  font-size: 0.7em;
+  display: block;
+}
+
+/* Naviagation */
+
+header {
+  padding: 1em 0 2em;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0.5em;
+  color: var(--clr-primary);
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+  color: var(--clr-accent);
+  text-decoration: underline;
+}
+
+/* Buttons */
+
+/* Styling */
+
+.hero {
+  background-color: #555;
+  background-image: url(../images/chand.jpg);
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  background-size: cover;
+  color: var(--clr-accent);
+  padding: 5vh 1em;
+}
+
+.about-us {
+  background-color: var(--clr-accent);
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 0;
+}
+
+.about-us__intro {
+  background-image: url(/Casino-Aurore-Wyng/images/chand.jpg);
+  padding: 3em 1em 1em;
+}
+
+.about-us__body {
+  padding: 1em 1em 3em;
 }
