@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <title>Le Casino Aurore</title>
   </head>
   <body>
@@ -24,12 +30,10 @@
           Where the art of gaming meets the game of art.
         </h2>
       </section>
-
       <section class="about-us">
-        <header class="about-us__intro">
-          <h2 class="section-title-small"><small>About Us</small></h2>
-        </header>
+        <header class="about-us__intro"></header>
         <div class="about-us__body">
+          <h2 class="section-title-small"><small>About Us</small></h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -39,7 +43,6 @@
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
-          <p></p>
         </div>
       </section>
 
@@ -51,13 +54,16 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          aliquip ex ea commodo consequat.
+        </p>
+        <p>
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum.
         </p>
         <div class="casino-img-group">
-          <img
+          <!-- <img
             src="/Casino-Aurore-Wyng/images/woman-gambling.jpg"
             alt="woman-gambling"
             class="casino__photo"
@@ -66,7 +72,7 @@
             src="/Casino-Aurore-Wyng/images/gold-cards.jpg"
             alt="gold-cards"
             class="casino__photo"
-          />
+          /> -->
           <img
             src="/Casino-Aurore-Wyng/images/chips.jpg"
             alt="chips"
@@ -80,18 +86,18 @@
         </div>
       </section>
 
-      <section class="drinks">
+      <section class="drinks-section">
         <header>
           <h2 class="section-title-small">Drinks</h2>
         </header>
         <div class="drinks">
           <div class="drink">
+            <img
+              src="/Casino-Aurore-Wyng/images/drink1.jpg"
+              alt="drink1"
+              class="drink__img"
+            />
             <div class="drink__content">
-              <img
-                src="/Casino-Aurore-Wyng/images/drink1.jpg"
-                alt="drink1"
-                class="drink__img"
-              />
               <h3 class="drink__title">Award Winning Cocktails</h3>
 
               <p>
@@ -104,56 +110,54 @@
                 is a true expert behind the art of cocktails.
               </p>
             </div>
-            <div class="drink">
-              <div class="drink__content">
-                <img
-                  src="/Casino-Aurore-Wyng/images/drink2.jpg"
-                  alt="drink2"
-                  class="drink__img"
-                />
-                <h3 class="drink__title">World Class Cognacs</h3>
+          </div>
+          <div class="drink">
+            <img
+              src="/Casino-Aurore-Wyng/images/drink2.jpg"
+              alt="drink2"
+              class="drink__img"
+            />
+            <div class="drink__content">
+              <h3 class="drink__title">World Class Cognacs</h3>
 
-                <p>
-                  Cognac gets its color and the rich aromas of caramel, toffee,
-                  leather, coconut, and spice from oak aging.
-                </p>
-                <p>
-                  Explore cognacs from different regions and their unique flavor
-                  profiles from varying aging techniques.
-                </p>
-              </div>
+              <p>
+                Cognac gets its color and the rich aromas of caramel, toffee,
+                leather, coconut, and spice from oak aging.
+              </p>
+              <p>
+                Explore cognacs from different regions and their unique flavor
+                profiles from varying aging techniques.
+              </p>
             </div>
-            <div class="drink">
-              <div class="drink __content">
-                <img
-                  src="/Casino-Aurore-Wyng/images/drink3.jpg"
-                  alt="drink3"
-                  class="drink__img"
-                />
-                <h3 class="drink__title">Champagnes & Sparkling Wines</h3>
-                <p>
-                  Experience the crisp and bubbly taste of our Champagnes,
-                  imported direclty from the Champagne region of France.
-                </p>
-                <p>
-                  We also offer a variety of sparkling wines and tastings with
-                  our in house Sommeliers.
-                </p>
-              </div>
+          </div>
+          <div class="drink">
+            <img
+              src="/Casino-Aurore-Wyng/images/drink3.jpg"
+              alt="drink3"
+              class="drink__img"
+            />
+            <div class="drink __content">
+              <h3 class="drink__title">Champagnes & Sparkling Wines</h3>
+              <p>
+                Experience the crisp and bubbly taste of our Champagnes,
+                imported direclty from the Champagne region of France.
+              </p>
+              <p>
+                We also offer a variety of sparkling wines and tastings with our
+                in house Sommeliers.
+              </p>
             </div>
           </div>
         </div>
+      </section>
+      <div class="btns-container">
+        <p>Learn more on:</p>
         <div class="btn-group">
-          <a href="" class="btn btn-accent"></a>
-        </div>
-
-        <div class="btn-group">
-          <p>Learn more on:</p>
           <a href="" class="btn btn-primary">FB</a>
           <a href="" class="btn btn-primary">IG</a>
           <a href="" class="btn btn-primary">Press</a>
         </div>
-      </section>
+      </div>
     </main>
     <footer>
       <ul class="footer-nav">
