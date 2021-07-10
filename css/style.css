@@ -180,17 +180,6 @@ a.ag-btn {
   padding: 5%;
 }
 
-.ag.ag-left {
-  background: url(/Casino-Aurore-Wyng/images/drink1.jpg) 50% 50%;
-  background-size: cover;
-}
-
-.ag .ag-left img {
-  position: relative;
-  z-index: 1;
-  width: 9em;
-}
-
 .ag .ag-left:after {
   content: "";
   position: relative;
@@ -251,7 +240,7 @@ a.ag-btn {
 }
 
 .about-us__intro {
-  background-image: url(/Casino-Aurore-Wyng/images/chand.jpg);
+  background-image: url(../images/chand.jpg);
   background-size: cover;
   padding: 3em 1em 1em;
   min-height: 16em;
